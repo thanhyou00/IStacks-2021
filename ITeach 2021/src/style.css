@@ -8,6 +8,7 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #f1f2f6;
 }
+
 /* Header */
 .mynav {
     background-color: #212529;
@@ -50,9 +51,9 @@
 .hov ul li {
     cursor: pointer;
 }
-.hov ul> li:hover {
-    background-color: #747d8c;
-    color: aliceblue;
+.hov ul li:hover a {
+    color: #212529;
+    text-decoration: none;
 }
 #btn-search {
     background-color: #00CCCC;

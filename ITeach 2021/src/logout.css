@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('./img/logout-bg.png');
+}
+
+.col-sm-4 {
+    padding-top: 200px;
+    height: 100vh;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #2e86de;
+}
+.col-sm-4 i {
+    font-size: 130px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.col-sm-4 h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.col-sm-4 span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.col-sm-6 {
+    font-weight: bold;
+    padding-top: 150px;
+    color: #ffffff;
+}
+.col-sm-6 p {
+    color: #2e86de;
+    font-family: monospace;
+}
+.space {
+    margin-top: 80px;
+}
