@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f2f6;
+}
+/* Header */
+.mynav {
+    background-color: #212529;
+    height: 60px;
+}
+#mysearch {
+    padding: 10px 30px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: none;
+    background: #00CCCC;
+    color: #ffff;
+    width: 300px;
+    height: 35px;
+}
+.img-str {
+    background-image: url('./img/bg2.jpg');
+}
+.img-str1 {
+    background-image: url('./img/bg3.jpg');
+}
+.img-str2 {
+    background-image: url('./img/bg5.jpg');
+}
+.img-str3 {
+    background-image: url('./img/bg1.jpg');
+}
+.img-str4 {
+    background-image: url('./img/bg.jpg');
+}
+.img-str5 {
+    background-image: url('./img/bg4.jpg');
+}
+.img-str:hover,.img-str1:hover,.img-str2:hover,.img-str3:hover,.img-str4:hover,.img-str5:hover {
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+.hov ul li {
+    cursor: pointer;
+}
+.hov ul> li:hover {
+    background-color: #747d8c;
+    color: aliceblue;
+}
+#btn-search {
+    background-color: #00CCCC;
+}
+.fa-search{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 270px;
+}
+#mystatus{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #dfe4ea;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 80px;
+    width: 500px;
+}
+.sp {
+    margin-bottom: 50px;
+}
+#icon {
+    color: #00CCCC;
+    font-size: 22px;
+}
+#icon i {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.icon-stt  i:hover {
+    cursor: pointer;
+}
+.position-fixed i {
+    margin-right: 40px;
+    color: #1e90ff;
+    font-size: 23px;
+}
+.position-fixed span {
+    margin-left: 40px;
+}
