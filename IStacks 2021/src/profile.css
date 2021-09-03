@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-#body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f1f2f6;
-}
+
 .modal-backdrop {
     /* bug fix - no overlay */    
     display: none;    
 } 
+.container i {
+    cursor: pointer;
+    color: #00CCCC;
+}
 /* Header */
 .mynav {
     background-color: black;
@@ -34,4 +35,26 @@
     color: aliceblue;
     position: absolute;
     margin-left: 270px;
+}
+/* Body */
+.col-sm-6 {
+    height: 100vh;
+}
+.card-img-top {
+    border: 2px solid #ffffff;
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+.card-text {
+    color: gray;
+    text-align: center;
+}
+.list-group-item {
+    cursor: pointer;
+}
+#carouselExampleIndicators {
+    border: 2px solid #ffffff;
+    margin-top: 100px;
 }
