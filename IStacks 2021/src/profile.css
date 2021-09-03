@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f2f6;
+}
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+} 
+/* Header */
+.mynav {
+    background-color: black;
+    height: 60px;
+}
+#mysearch {
+    padding: 10px 20px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: none;
+    width: 300px;
+    height: 35px;
+}
+
+#btn-search {
+    background-color: #00CCCC;
+}
+.fa-search{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 270px;
+}

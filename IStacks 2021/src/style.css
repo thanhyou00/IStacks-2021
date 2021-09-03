@@ -18,13 +18,11 @@
     height: 60px;
 }
 #mysearch {
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 30px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border: none;
-    background: #00CCCC;
-    color: #ffff;
     width: 300px;
     height: 35px;
 }
