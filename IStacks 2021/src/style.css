@@ -8,7 +8,10 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #f1f2f6;
 }
-
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+} 
 /* Header */
 .mynav {
     background-color: black;
