@@ -16,7 +16,7 @@
 /* Header */
 .mynav {
     background-color: black;
-    height: 60px;
+    min-height: 50px;
 }
 #mysearch {
     padding: 10px 20px;
