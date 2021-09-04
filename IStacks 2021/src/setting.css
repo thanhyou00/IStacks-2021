@@ -30,18 +30,6 @@
     width: 300px;
     height: 35px;
 }
-#mysearch-acc {
-    padding: 10px 20px;
-    background-color: #8395a7;
-    border-radius: 30px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border: none;
-    width: 300px;
-    height: 35px;
-    color: #ffffff;
-}
-
 #btn-search {
     background-color: #00CCCC;
 }
@@ -50,24 +38,3 @@
     position: absolute;
     margin-left: 270px;
 }
-/* Body */
-.container-fluid i {
-    cursor: pointer;
-    color: #00CCCC;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
