@@ -13,6 +13,9 @@
     cursor: pointer;
     color: #00CCCC;
 }
+#body {
+    background-color: #f1f2f6;
+}
 /* Header */
 .mynav {
     background-color: black;

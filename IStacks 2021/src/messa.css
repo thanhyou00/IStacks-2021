@@ -13,6 +13,9 @@
     cursor: pointer;
     color: #00CCCC;
 }
+#body {
+    background-color: #f1f2f6;
+}
 /* Header */
 .mynav {
     background-color: black ;
@@ -51,6 +54,9 @@
 .container-fluid i {
     cursor: pointer;
     color: #00CCCC;
+}
+.check {
+    color: azure;
 }
 
 
