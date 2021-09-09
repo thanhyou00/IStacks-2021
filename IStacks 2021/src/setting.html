@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,88 +13,347 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>IStacks | Settings</title>
 </head>
+
 <body id="body">
-        <!-- Header -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top mynav">
-            <a class="navbar-brand nav" href="index.html">
-                <img src="./img/IStacks.png" width="45" height="45" alt="">
-            </a>
-            <a style="color: #636e72;margin-left: 0.9375rem;font-size: 0.8125rem;" class="navbar-brand " href="index.html">
-                <i style="margin-right: 10px;" class="fas fa-home"></i>
-                HOME</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="profile.html">
-                            <i style="margin-right: 10px;" class="fas fa-id-card"></i>
-                            PROFILE </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="#">
-                            <i style="margin-right: 10px;" class="fas fa-user-friends"></i>
-                            FRIENDS </a>
-                    </li>
-                    <li class="nav-item active" data-toggle="modal" data-target="#exampleModalCenter">
-                        <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="#">
-                            <i style="margin-right: 10px;" class="far fa-bell"></i>
-                            NOTIFIC </a>
-                        <!-- Show notific -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Notification</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi error commodi dolore
-                                        tenetur necessitatibus reiciendis modi placeat nam dicta officia doloremque, ipsa,
-                                        quidem asperiores mollitia dolores alias. Minima, sint porro!
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Mark as read</button>
-                                    </div>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mynav">
+        <a class="navbar-brand nav" href="index.html">
+            <img src="./img/IStacks.png" width="45" height="45" alt="">
+        </a>
+        <a style="color: #636e72;margin-left: 0.9375rem;font-size: 0.8125rem;" class="navbar-brand " href="index.html">
+            <i style="margin-right: 10px;" class="fas fa-home"></i>
+            HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="profile.html">
+                        <i style="margin-right: 10px;" class="fas fa-id-card"></i>
+                        PROFILE </a>
+                </li>
+                <li class="nav-item active">
+                    <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="#">
+                        <i style="margin-right: 10px;" class="fas fa-user-friends"></i>
+                        FRIENDS </a>
+                </li>
+                <li class="nav-item active" data-toggle="modal" data-target="#exampleModalCenter">
+                    <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="#">
+                        <i style="margin-right: 10px;" class="far fa-bell"></i>
+                        NOTIFIC </a>
+                    <!-- Show notific -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Notification</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi error commodi dolore
+                                    tenetur necessitatibus reiciendis modi placeat nam dicta officia doloremque, ipsa,
+                                    quidem asperiores mollitia dolores alias. Minima, sint porro!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Mark as read</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- Show notific -->
-                    </li>
-                    <li class="nav-item active">
-                        <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="messa.html">
-                            <i style="margin-right: 10px;" class="far fa-comment-dots"></i>
-                            MESSAGES </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="account.html">
-                            <i style="margin-right: 10px;" class="far fa-user"></i>
-                            ACCOUNTS </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a style="color: #f1f2f6;font-size: 1rem;" class="nav-link" href="setting.html">
-                            <i style="margin-right: 10px;" class="fas fa-cogs"></i>
-                            SETTINGS </a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0 ">
-                    <i style="color: #2f3542;" class="fas fa-search"></i>
-                    <input id="mysearch" class="form-control mr-sm-2 mr-xl-5 " type="search" placeholder="Search"
-                        aria-label="Search">
-                    <img style="border: 2px solid #ffff;cursor: pointer;" src="./img/cat.jpg" width="40px" height="40px"
-                        alt="" class=" rounded-circle">
-                </form>
+                    </div>
+                    <!-- Show notific -->
+                </li>
+                <li class="nav-item active">
+                    <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="messa.html">
+                        <i style="margin-right: 10px;" class="far fa-comment-dots"></i>
+                        MESSAGES </a>
+                </li>
+                <li class="nav-item active">
+                    <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="account.html">
+                        <i style="margin-right: 10px;" class="far fa-user"></i>
+                        ACCOUNTS </a>
+                </li>
+                <li class="nav-item active">
+                    <a style="color: #f1f2f6;font-size: 1rem;" class="nav-link" href="setting.html">
+                        <i style="margin-right: 10px;" class="fas fa-cogs"></i>
+                        SETTINGS </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ">
+                <i style="color: #2f3542;" class="fas fa-search"></i>
+                <input id="mysearch" class="form-control mr-sm-2 mr-xl-5 " type="search" placeholder="Search"
+                    aria-label="Search">
+                <img style="border: 2px solid #ffff;cursor: pointer;" src="./img/cat.jpg" width="40px" height="40px"
+                    alt="" class=" rounded-circle">
+            </form>
+        </div>
+    </nav>
+    <!-- Body -->
+
+    <div style="height: 100vh;" class="container">
+        <div style="height: 120px;" class="row">
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">
+                    <i style="font-size: 25px;" class="fas fa-shield-alt"></i>
+                    <span style="margin-left: 40px;">Security and access</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">
+                        <i style="font-size: 25px;" class="fas fa-user-lock"></i>
+                        <span style="margin-left: 40px;">Privacy and safety</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">
+                        <i style="font-size: 25px;" class="far fa-bell"></i>
+                        <span style="margin-left: 40px;">Notifications</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">
+                        <i style="font-size: 25px;" class="fas fa-map-marker-alt"></i>
+                        <span style="margin-left: 40px;">Location</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">
+                        <i style="font-size: 25px;" class="fas fa-globe-asia"></i>
+                        <span style="margin-left: 40px;">Language</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">
+                        <i style="font-size: 25px;" class="fas fa-user-circle"></i>
+                        <span style="margin-left: 40px;">Your account</span>
+                    </a>
+                </div>
             </div>
-        </nav>
-
-
+            <div class="col-9">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 style="font-weight: bold;">YOUR SETTINGS</h4>
+                            </li>
+                            <li class="list-group-item ">
+                                Your name
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Your link
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Email
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Change your password
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 style="font-weight: bold;">YOUR SETTINGS</h4>
+                            </li>
+                            <li class="list-group-item ">
+                                Your name
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Your link
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Email
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Change your password
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 style="font-weight: bold;">YOUR SETTINGS</h4>
+                            </li>
+                            <li class="list-group-item ">
+                                Your name
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Your link
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Email
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Change your password
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h4 style="font-weight: bold;">YOUR SETTINGS</h4>
+                            </li>
+                            <li class="list-group-item ">
+                                Your name
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Your link
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Email
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Change your password
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Vestibulum at eros
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Morbi leo risus
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                            <li class="list-group-item">
+                                Porta ac consectetur ac
+                                <i style="float: right;" class="fas fa-pen"><span style="margin-left: 10px;">Edit</span></i>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Script -->
     <script src="setting.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -106,4 +366,5 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
