@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-sm-6 {
+    height: 100vh;
+    background-color: #57606f;
+    padding: 50px 10px;
+}
+.fa-layer-group {
+    font-size: 36px;
+    margin-right: 80px;
+}
+.fa-layer-group span {
+    letter-spacing: 4px;
+} 
+.card {
+    padding: 50px 50px;
+    border: none;
+    color: aliceblue;
+}
+.card .card-body {
+    padding-top: 250px;
+}
+.card .card-body,.card .card-header {
+    padding-left: 90px;
+    padding-right: 180px;
+    background-color: #57606f;
+    border: none;
+}
+.col-sm-3:hover {
+    margin-top: -8px;
+}
+#emailHelp {
+    color: #54a0ff;
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/IStacks.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>IStacks | Home</title>
+</head>
+
+<body id="body">
+  <!-- Header -->
+  <nav  class="navbar navbar-expand-lg navbar-dark fixed-top mynav">
+    <a class="navbar-brand nav" href="index.html">
+      <img src="./img/IStacks.png" width="45" height="45" alt="">
+    </a>
+    <a style="color: #f1f2f6;margin-left: 0.9375rem;font-size: 1rem;" class="navbar-brand " href="#">
+      <i style="margin-right: 10px;" class="fas fa-home"></i>
+      HOME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="profile.html">
+            <i style="margin-right: 10px;" class="fas fa-id-card"></i>
+            PROFILE </a>
+        </li>
+        <li class="nav-item active">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="friend.html">
+            <i style="margin-right: 10px;" class="fas fa-user-friends"></i>
+            FRIENDS </a>
+        </li>
+        <li class="nav-item active" data-toggle="modal" data-target="#exampleModalCenter">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="#">
+            <i style="margin-right: 10px;" class="far fa-bell"></i>
+            NOTIFIC </a>
+        <!-- Show notific -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Notification</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi error commodi dolore tenetur necessitatibus reiciendis modi placeat nam dicta officia doloremque, ipsa, quidem asperiores mollitia dolores alias. Minima, sint porro!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Mark as read</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Show notific -->
+        </li>
+        <li class="nav-item active">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="messa.html">
+            <i style="margin-right: 10px;" class="far fa-comment-dots"></i>
+            MESSAGES </a>
+        </li>
+        <li class="nav-item active">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="account.html">
+            <i style="margin-right: 10px;" class="far fa-user"></i>
+            ACCOUNTS </a>
+        </li>
+        <li class="nav-item active">
+          <a style="color: #636e72;font-size: 0.8125rem;" class="nav-link" href="setting.html">
+            <i style="margin-right: 10px;" class="fas fa-cogs"></i>
+            SETTINGS </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 ">
+        <i style="color: #2f3542;" class="fas fa-search"></i>
+        <input id="mysearch" class="form-control mr-sm-2 mr-xl-5 " type="search" placeholder="Search"
+          aria-label="Search">
+        <img style="border: 2px solid #ffff;cursor: pointer;" src="./img/cat.jpg" width="40px" height="40px" alt=""
+          class=" rounded-circle">
+      </form>
+    </div>
+  </nav>
+  <!--Body  -->
+  <br>
+  <br>
+  <div style="margin-top: 40px;" class="space"></div>
+  <br>
+  <div class="container-fluid ">
+    <div class="row hov">
+        <div class="col-sm-2 ">
+          <ul class="list-group position-fixed">
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="far fa-user"></i>
+                Account
+                <span style="background-color: #ff4757;" class="badge badge-primary badge-pill">14</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="far fa-comment-dots"></i>
+                Messages
+                <span class="badge badge-primary badge-pill">2</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="fas fa-users"></i>
+                Groups
+                <span class="badge badge-primary badge-pill">1</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="fas fa-bezier-curve"></i>
+                Invitation
+                <span style="background-color: #ff4757;" class="badge badge-primary badge-pill">10</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="far fa-bookmark"></i>
+                 Bookmarks
+                <span class="badge badge-primary badge-pill">1</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="fas fa-history"></i>
+                Stories
+                <span class="badge badge-primary badge-pill">6</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="fab fa-wpexplorer"></i>
+                Explore
+                <span class="badge badge-primary badge-pill">1</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="far fa-thumbs-up"></i>
+                Favorites
+                <span class="badge badge-primary badge-pill">4</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="#">
+                <i class="fas fa-question-circle"></i>
+                Helps
+                <span class="badge badge-primary badge-pill">8</span>
+              </a>
+            </li>
+            <li style="border: none;" class="list-group-item d-flex justify-content-between align-items-center">
+              <a href="logout.html">
+                <i class="fas fa-sign-out-alt"></i>
+                Log out
+                <span class="badge badge-primary badge-pill">1</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      <!-- Main -->
+      <div class="col-sm-1"></div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div  class="card col-sm-2 img-str">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;" class="card-text">Sky
+                Nguyen</p>
+            </div>
+          </div>
+          <div style="margin-left: 6px;margin-right: 6px;" class="space"></div>
+          <div class="card col-sm-2 img-str1">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;">Sky Nguyen</p>
+            </div>
+          </div>
+          <div style="margin-left: 6px;margin-right: 6px;" class="space"></div>
+          <div class="card col-sm-2 img-str2">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;">Sky Nguyen</p>
+            </div>
+          </div>
+          <div style="margin-left: 6px;margin-right: 6px;" class="space"></div>
+          <div  class="card col-sm-2 img-str3">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;" class="card-text">Sky
+                Nguyen</p>
+            </div>
+          </div>
+          <div style="margin-left: 6px;margin-right: 6px;" class="space"></div>
+          <div  class="card col-sm-2 img-str4">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;" class="card-text">Sky
+                Nguyen</p>
+            </div>
+          </div>
+          <div style="margin-left: 12px;" class="space"></div>
+          <div  class="card col-sm-1 img-str5">
+            <img src="./img/avt1.jpg" alt="" class="card-img-top rounded-circle">
+            <div class="card-body">
+              <p style="font-size: 9px;text-align: center;color: #f1f2f6;font-weight: bold;" class="card-text">Sky
+                Nguyen</p>
+            </div>
+          </div>
+        </div>
+        <!-- Status -->
+        <br>
+        <div class="row card">
+          <form style="background-color: #ffffff;padding-top: 10px;padding-left: 20px;padding-right: 20px;"
+            class="form-inline my-2 my-lg-0 ">
+            <img style="border: 2px solid #2f3542;cursor: pointer;" src="./img/cat.jpg" width="60px" height="60px"
+              alt="" class=" rounded-circle">
+            <input id="mystatus" class="form-control  " type="text" placeholder="What's happening, Sky ?"
+              aria-label="Search">
+            <br>
+            <br>
+            <div class="sp"></div>
+            <div class="row card-body">
+              <div id="icon" class="col-sm-5">
+                <i class="fas fa-images"></i>
+                <i class="far fa-file-image"></i>
+                <i class="fas fa-camera-retro"></i>
+                <i class="fas fa-poll"></i>
+                <i class="far fa-grin"></i>
+                <i class="far fa-calendar-alt"></i>
+              </div>
+              <div class="col-sm-5"></div>
+              <div class="col-sm-2">
+                <button style="border-radius: 30px;width: 100px;background-color: #00CCCC;outline: none;" type="button"
+                  class="btn btn-secondary btn-sm">IStacks</button>
+              </div>
+            </div>
+        </div>
+        </form>
+        <br>
+        <!-- Up status -->
+        <!-- 1 -->
+        <div class="row card">
+          <div class="card-header">
+            <div class="col-sm-12">
+              <img style="border: 2px solid #2f3542;cursor: pointer;" src="./img/cat.jpg" width="50px" height="50px"
+                alt="" class=" rounded-circle">
+              <span style="font-weight: bold;margin-left: 10px;">Sky Nguyen</span> <i style="color: #00CCCC;" class="fas fa-check-circle"></i>
+              <i style="float: right;font-size: 22px;" class="fas fa-pen-square"></i>
+            </div>
+          </div>    
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus perferendis explicabo minus cumque deserunt saepe vero iure, veniam minima doloremque, eveniet, ad labore doloribus adipisci quas! Aperiam enim fugiat iste!</p>
+            <img src="./img/bg.jpg" width="100%" alt="">
+          </div>  
+          <div class="card-footer icon-stt">
+            <div class="row">
+              <div class="col-sm-4 ">
+                <i onclick="checklike()" id="check" style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="far fa-thumbs-up">
+                  <span style="font-size: 16px;margin-left: 10px;">Like</span>
+                </i>
+              </div>
+              <div class="col-sm-4">
+                <i style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="far fa-comment-alt">
+                  <span style="font-size: 16px;margin-left: 10px;">Comment</span>
+                </i>
+              </div>
+              <div class="col-sm-4">
+                <i style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="fas fa-share">
+                  <span style="font-size: 16px;margin-left: 10px;">Share</span>
+                </i>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!-- 2 -->
+        <div style="margin-bottom: 30px;" class="spa"></div>
+        <div class="row card">
+          <div class="card-header">
+            <div class="col-sm-12">
+              <img style="border: 2px solid #2f3542;cursor: pointer;" src="./img/avt1.jpg" width="50px" height="50px"
+                alt="" class=" rounded-circle">
+              <span style="font-weight: bold;margin-left: 10px;">Sky Nguyen</span> <i style="color: #00CCCC;" class="fas fa-check-circle"></i>
+              <i style="float: right;font-size: 22px;" class="fas fa-pen-square"></i>
+            </div>
+          </div>    
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus perferendis explicabo minus cumque deserunt saepe vero iure, veniam minima doloremque, eveniet, ad labore doloribus adipisci quas! Aperiam enim fugiat iste!</p>
+            <img src="./img/gif-bg.gif" width="100%" alt="">
+          </div>  
+          <div class="card-footer icon-stt">
+            <div class="row ">
+              <div class="col-sm-4 ">
+                <i onclick="checklike()" id="check" style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="far fa-thumbs-up"> 
+                  <span style="font-size: 16px;margin-left: 10px;">Like</span>
+                </i>
+              </div>
+              <div class="col-sm-4">
+                <i style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="far fa-comment-alt">
+                  <span style="font-size: 16px;margin-left: 10px;">Comment</span>
+                </i>
+              </div>
+              <div class="col-sm-4">
+                <i style="align-items: center;display: flex;justify-content: center;font-size: 20px;" class="fas fa-share">
+                  <span style="font-size: 16px;margin-left: 10px;">Share</span>
+                </i>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+      <div style="margin-left: 1240px;margin-top: 100px;" class="col-sm-2 fixed-top ">
+        <p class="font-weight-bold">Your feedback</p>
+        <div class="input-group mb-2 ">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="fas fa-signature"></i>
+            </div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Name">
+        </div>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="far fa-envelope"></i>
+            </div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+        </div>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <i class="fas fa-phone"></i>
+            </div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Phone">
+        </div>
+        <button style="width: 100%;margin-bottom: 30px;margin-top: 15px;" type="button" class="btn btn-sm btn-primary" >Send</button>
+       <hr>
+        <p class="font-weight-bold">Tags related</p>
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span>
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <br> <br>
+        <p class="font-weight-bold">IStacks</p>
+        <span>Terms of Service
+          Privacy Policy
+          Cookie Policy
+          Ads info
+          More
+          © 2021 IStacks, Inc.</span>
+      </div>
+    </div>
+  </div>
+  <!-- Script -->
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
